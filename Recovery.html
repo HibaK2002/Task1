@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Colorlib Forgot Password</title>
+    <!-- Internal CSS -->
+    <style>
+        /* Styles for the container div */
+        .container {
+            background: #fff;
+            text-align: center;
+            display: flex;
+            justify-content: center; 
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full height of the viewport */
+            margin: 0; /* Remove default margin */
+        }
+        
+        /* Styles for the h2 element */
+        h2 {
+            margin-top: 5px;
+            position: relative;
+            left: 20%;
+        }
+        
+        /* Styles for the p element */
+        p {
+            margin-top: 60px;
+            text-align: left; 
+            margin-right: 10%;
+            color: #555;
+        }
+        
+        /* Styles for the label elements */
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        /* Styles for the input elements */
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        
+        /* Styles for the button element */
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #58b34c;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container div with class "container" -->
+    <div class="container">
+        <h2>Recover your password</h2>
+        <p>How would you like to recover your password?</p> 
+        <!-- Form for password recovery options -->
+        <form>
+            <!-- Phone number input field -->
+            <label>Phone Number</label>
+            <input type="text" placeholder="Enter your phone number">
+            
+            <!-- OR separator -->
+            <h3>OR</h3>
+            
+            <!-- Email input field -->
+            <label>Email</label>
+            <input type="text" placeholder="Enter your Email">
+            
+            <!-- Submit button -->
+            <button type="submit">Send</button>  
+        </form>
+    </div> 
+</body>
+</html>
