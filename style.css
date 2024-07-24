@@ -1,0 +1,61 @@
+/* Style for the image */
+img {
+            margin-left: 15%;
+            margin-right: 0; }
+            
+        
+        /* Style for the h2 header */
+          h2 {  
+            
+            text-align: left;   
+            padding-top: 100px;
+              } 
+
+              /* Style for the paragraph */
+              p{text-align: left;
+            font-size: 13px;}
+
+             /* Style for form labels within .form-group */
+             .form-group label {
+                display: block;
+                margin-right: 85%;
+                margin-bottom: 5px;
+                font-weight: bold;
+               
+            }
+            /* Style for form inputs within .form-group */
+            .form-group input {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #dddddde7;
+                border-radius: 4px;
+                
+            }
+            
+
+           /* Style for forgot password link */
+           .forgot-pass { 
+            margin-left: 70%;}
+            
+           
+          
+           
+        
+        /* Style for remember me section */
+        .remember-me  {
+            margin-right: 75%;
+            position: relative;
+            top: 20px;  }
+           
+              /* Style for the submit button */
+              #button {margin-top: 50px;
+                width: 100%;
+                height: 45px;
+                border: 0;
+                color:white;
+                background-color:forestgreen;
+              }
+        
+
+         
+           
